@@ -1,0 +1,10 @@
+services:
+  normalize-watcher:
+    container_name: normalize-watcher
+    build: .
+    environment:
+      - NORMALIZE_MOVIES=/media/movies
+      - NORMALIZED_MOVIES=/media/normalized_movies
+    volumes:
+      - ~/media/movies:/media/movies
+      - ~/media/normalized_movies:/media/normalized_movies
