@@ -26,6 +26,15 @@ Ex: /media/normalized_movies
 ### NORMALIZED_KEEP_MOVIES_STRUCTURE
 Keep folder structure or save only files.
 Ex: True (default False)
+### NORMALIZE_SHOWS
+TV Shows folder which we want to normalize.
+Ex: /media/shows
+### NORMALIZED_SHOWS
+TV Shows folder where normalized files are put into.
+Ex: /media/normalized_shows
+### NORMALIZED_KEEP_SHOWS_STRUCTURE
+Keep folder structure or save only files.
+Ex: True (default True)
 ### NORMALIZE_INTERVAL
 Time (in seconds) between checks of the watchfolders.
 Ex: 30
