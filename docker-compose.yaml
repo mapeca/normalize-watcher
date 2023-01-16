@@ -5,6 +5,10 @@ services:
     environment:
       - NORMALIZE_MOVIES=/media/movies
       - NORMALIZED_MOVIES=/media/normalized_movies
+      - NORMALIZE_SHOWS=/media/shows
+      - NORMALIZED_SHOWS=/media/normalized_shows
     volumes:
-      - ~/media/movies:/media/movies
-      - ~/media/normalized_movies:/media/normalized_movies
+      - ./media/movies:/media/movies
+      - ./media/normalized_movies:/media/normalized_movies
+      - ./media/shows:/media/shows
+      - ./media/normalized_shows:/media/normalized_shows

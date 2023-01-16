@@ -9,4 +9,4 @@ RUN pip3 install --no-cache-dir --upgrade pip && \
 
 COPY ./src .
 
-CMD [ "python", "-u", "./main.py" ]
+ENTRYPOINT [ "python", "-u", "./main.py" ]
